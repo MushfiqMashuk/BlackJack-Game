@@ -81,8 +81,6 @@ class Cards{
     replace(){
 
         this.deck.push(this.dealtCards.pop());
-
-        // unshift method inserts an item to beginning of an Array 
     }
 
     clearDeck(){
@@ -160,7 +158,7 @@ function generateCard(){
 function showCard(activePlayer, card){
 
     if (activePlayer.score <= 21) {
-        //hitSound.play();
+        hitSound.play();
         const img = document.createElement("img");
         img.src = `images/${card.name}.png`;
         activePlayer.playGround.appendChild(img);
@@ -296,13 +294,13 @@ function resultShow(winner){
     if(winner === Player){
         result.innerHTML = "PLAYER WINS!";
         result.style.color = 'green';
-        //winSound.play();
+        winSound.play();
         winningScore.innerHTML = Player.wins;
     }
     else if(winner === Computer){
         result.innerHTML = "DEALER WINS!";
         result.style.color = 'red';
-        //loseSound.play();
+        loseSound.play();
         losesScore.innerHTML = Player.loses;
     }
     else{

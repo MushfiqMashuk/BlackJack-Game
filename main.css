@@ -1,0 +1,71 @@
+.game-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 1px solid rgb(87, 81, 79);
+    background: linear-gradient(rgb(0,0,0,.5), rgb(0,0,0,0.5)), url("images/table.jpg") center;
+}
+
+.btn-div{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.my{
+    border: 1px solid black;
+    text-align: center;
+    height: 450px;
+    flex: 1;
+    overflow: hidden;
+}
+
+
+.table-1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.clearfix{
+    clear: both;
+}
+
+ #rightPlayer{
+    border-right: none;
+    border-bottom: none;
+    border-top: none ;
+}
+
+#leftPlayer{
+    border-left: none;
+    border-bottom: none;
+    border-top: none ;
+} 
+
+#pointTable, th, td{
+    
+    padding: 10px;
+    text-align: center;
+}
+
+#nice{
+    float: left;
+}
+
+#name{
+    margin: 2px 100px;
+}
+
+img{
+    width: 150px;
+    height: 200px;
+    margin: 2px;
+}
+
+.w{
+    width: 100px;
+    font-size: 20px;
+}

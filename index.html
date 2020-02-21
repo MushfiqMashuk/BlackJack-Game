@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="main.css" rel="stylesheet"></link>
+   
+    <script src="js/all.js"></script>
+    <script defer src="main.js"></script>
+    
+
+</head>
+<body>
+
+    
+
+    <!--  -->
+
+    <div class="container text-center">
+        <h3 class="text-uppercase" id="name">BLACKJACK</h3>
+        <div class="game-container">
+            <div class="my text-white" id="leftPlayer">
+                <h3 class="text-uppercase">Player: <span id="myPoint">0</span></h3>
+                
+            </div>
+            <div class="my text-white" id="rightPlayer">
+                <h3 class="text-uppercase">Dealer: <span id="comPoint">0</span></h3>
+                
+            </div>
+    
+        </div>
+        <div class="bg-dark btn-div">
+            <button class="btn btn-primary m-2 text-uppercase w" id="hitBtn">Hit</button>
+            <button class="btn btn-info m-2 text-uppercase w" id="standBtn">Stand</button>
+            <button class="btn btn-danger m-2 text-uppercase w" id="dealBtn">Deal</button>
+            <button class="btn btn-warning m-2 text-uppercase w" id="shuffleBtn">Shuffle</button>
+        </div>
+        <div id="nice" class="bg-info table-1 text-white">
+            <table id="pointTable">
+                <tr>
+                    <th>WINS</th>
+                    <th>LOSES</th>
+                    <th>DRAWS</th>
+    
+                </tr>
+                <tr>
+                    <td><span id="winningScore">0</span></td>
+                    <td><span id="losesScore">0</span></td>
+                    <td><span id="drawScore">0</span></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
